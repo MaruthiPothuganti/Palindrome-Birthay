@@ -19,8 +19,9 @@ h3 {
     text-align: center;
 }
 
-#btnCheck {
+#btn-Check {
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .output {
