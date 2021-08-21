@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    height: 4rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+h3 {
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+#btnCheck {
+    margin-top: 10px;
+}
+
+.output {
+    text-align: center;
+}
