@@ -140,9 +140,11 @@ btnCheck.addEventListener("click", function check() {
         var isPalindrome = isPalindromeForAllDates(userBirthDate);
 
         if (isPalindrome) {
+            output.style.color = "green";
             output.innerText = "Hurray, Your BirthDate is a Palindrome🥳";
         } else {
             var [ctr, nextDate] = nextPalindromeDate(userBirthDate);
+            output.style.color = "red";
             output.innerText = "Oh, you missed the palindrome date by " + ctr + " days. The next Palindrome date is " + nextDate.day + ":" + nextDate.month + ":" + nextDate.year + ".";
         }
 
