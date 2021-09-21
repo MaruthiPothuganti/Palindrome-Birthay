@@ -27,3 +27,21 @@ h3 {
 .output {
     text-align: center;
 }
+
+footer {
+    text-align: center;
+    padding-top: 0px;
+    background-color: red;
+    width: 100%;
+    bottom: 0%;
+    position: fixed;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+}
+
+.links {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
